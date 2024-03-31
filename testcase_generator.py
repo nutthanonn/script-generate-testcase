@@ -87,7 +87,7 @@ while idx < n:
     # {testcaseObj.random_string(n=10,is_inline=True)}
     # {testcaseObj.random_pair(n=10,range_number=1000000)}
 
-    _n = np.linspace(1, 1e4, 50, dtype=int)[idx]
+    _n = np.linspace(1, 1e4, n, dtype=int)[idx]
     _target = random.randint(1, 100)
 
     input_data = f"""
